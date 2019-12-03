@@ -1,0 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    background-color: #FFFFFF;
+}
