@@ -7,5 +7,54 @@ body {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
     color: #000000;
-    background-color: #FFFFFF;
+    background-color: #7256A5;
+}
+
+h1, h2, h3 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.component-navigation {
+    background-color: #ffffff;
+}
+
+.component-navigation .nav-item {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+.component-navigation .nav-item a {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    color: #281f39;
+    padding: 0;
+    font-size: 1.25rem;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.component-navigation .nav-item a:hover {
+    border-bottom-color: #281f39;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 3rem 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 1rem 0 0;
+}
+
+footer a {
+    color: #281f39;
+    border-bottom: 1px solid #ffffff;
+    line-height: 2rem;
+}
+
+footer a:hover {
+    color: #281f39;
+    text-decoration: none;
+    border-bottom-color: #281f39;
 }
