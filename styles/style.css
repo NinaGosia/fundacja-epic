@@ -110,6 +110,10 @@ footer a:hover {
     font-family: 'Archivo Narrow', sans-serif;
 }
 
+.component-slider .slide .description h1 {
+    font-size: 3.5rem;
+}
+
 .component-slider .stamp .description {
     position: absolute;
     bottom: 5vh;
