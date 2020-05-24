@@ -23,6 +23,15 @@
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143161269-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143161269-2');
+    </script>
 </head>
 
 <body>
@@ -41,7 +50,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="#o-nas">O nas</a></li>
+                            <li class="nav-item"><a href="#cele-fundacji">O nas</a></li>
                             <li class="nav-item d-none d-lg-inline">/</li>
                             <li class="nav-item"><a href="#ekonomia-spoleczna">Ekonomia społeczna</a></li>
                             <li class="nav-item d-none d-lg-inline">/</li>
@@ -75,6 +84,48 @@
             </div>
         </div>
     </div>
+
+    <section id="cele-fundacji" class="bg-white">
+        <div class="intro bg-primary px-5 py-3 text-center">
+            <h2 class="text-white">O fundacji</h2>
+            <p class="text-white">Fundacja powstała w 2020 roku, ale już na samym początku zaczęła z pełną gamą projektów, w ramach kreowania wartości dodanej dla dzieci, młodzieży oraz dorosłych z Polski, a w szczególności z Gdańska. Założycielami Fundacji są młodzi, prężnie działający ludzie, którzy chcą zaszczepić w innych miłość do aktywnej formy wypoczynku, aktywizacji w ramach działalności społecznej oraz promowania i propagowania szeroko rozumianej popularnej kultury wysokiej. Fundacja w ramach swojego rozwoju będzie chciała organizować coraz większe i liczniejsze projekty, które zaktywizują młodzież z całej Polski oraz pokaże, że można w aktywny i inspirujący sposób spędzać czas wolny.</p>
+        </div>
+
+        <div class="container wider py-5 px-0 text-center">
+            <h2>Nasze cele</h2>
+            <div class="goal-deck mt-4">
+                <div class="goal">
+                    <div class="icon"><img src="images/cele-fundacji/1.svg" alt="goal" /></div>
+                    <div class="description">Promowania młodego pokolenia twórców oraz promowanie ich talentów</div>
+                </div>
+                <div class="goal">
+                    <div class="icon"><img src="images/cele-fundacji/2.svg" alt="goal" /></div>
+                    <div class="description">Zwiększenie udziału obywateli w życiu publicznym</div>
+                </div>
+                <div class="goal">
+                    <div class="icon"><img src="images/cele-fundacji/3.svg" alt="goal" /></div>
+                    <div class="description">Propagowanie postaw uczestnictwa w działalności społecznej</div>
+                </div>
+                <div class="goal">
+                    <div class="icon"><img src="images/cele-fundacji/4.svg" alt="goal" /></div>
+                    <div class="description">Pobudzanie twórczego ruchu w środowiskach nieprofesjonalnych twórców kultury</div>
+                </div>
+                <div class="goal">
+                    <div class="icon"><img src="images/cele-fundacji/5.svg" alt="goal" /></div>
+                    <div class="description">Wspieranie inicjatyw lokalnych służących powstawaniu sztuki i kultury</div>
+                </div>
+                <div class="goal">
+                    <div class="icon"><img src="images/cele-fundacji/6.svg" alt="goal" /></div>
+                    <div class="description">Popularyzacja kultury popularnej, niszowej oraz orientalnej</div>
+                </div>
+                <div class="goal">
+                    <div class="icon"><img src="images/cele-fundacji/7.svg" alt="goal" /></div>
+                    <div class="description">Organizacja miejsc oraz wydarzeń sprzyjających twórczemu rozwojowi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="container-fluid text-center d-flex flex-column justify-content-center align-items-center mt-5">
         <h5 class="d-flex flex-column">
             <span class="text-uppercase">Zostań naszym darczyńcą</span>

@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
     font-weight: 400;
     color: #000000;
     background-color: #7256A5;
@@ -98,6 +98,7 @@ footer a:hover {
 }
 
 .component-slider .description {
+    font-family: 'Tenor Sans', sans-serif;
     text-shadow: 1px 1px 5px #000;
     color: white;
 }
@@ -116,8 +117,106 @@ footer a:hover {
 
 .component-slider .stamp .description {
     position: absolute;
-    bottom: 5vh;
+    bottom: 10vh;
     right: 5vw;
     font-size: 2.5rem;
     text-align: right;
+}
+
+.bg-primary {
+    background-color: #7256A5!important;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container.wider {
+        max-width: 1280px;
+    }
+}
+
+.goal-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    background-image: url('../images/ikonki_tlo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 22rem;
+    width: 17rem;
+    border: 0;
+    color: #ffffff;
+    margin: 0 1rem 1rem;
+}
+
+.goal .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 11rem;
+    width: 11rem;
+}
+
+.goal .icon img {
+    width: 80%;
+    height: 80%;
+}
+
+.goal .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+#cele-fundacji {
+    padding-top: calc(126px + 5rem);
+    margin-top: calc(-126px - 5rem);
+}
+
+#cele-fundacji h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3.5rem;
+    color: #7256A5;
+    letter-spacing: -2px;
+}
+
+@media only screen and (max-width: 991px) {
+    #cele-fundacji h2 {
+        font-size: 2.5rem;
+    }
+}
+
+#cele-fundacji .intro {
+    display: block;
+    width: 50rem;
+    font-size: 1.5rem;
+    margin: auto;
+    font-weight: 400;
+    line-height: 2rem;
+    z-index: 200;
+    position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+    #cele-fundacji .intro {
+        margin-top: -5rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #cele-fundacji .intro {
+        width: 90%;
+    }
 }
