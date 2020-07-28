@@ -14,6 +14,27 @@ h1, h2, h3 {
     font-family: 'Archivo Narrow', sans-serif;
 }
 
+a {
+    color: #7256A5;
+}
+
+a:hover {
+    color: #7256A5;
+    border-bottom-color: #7256A5;
+}
+
+.container-thin {
+    display: block;
+    width: 50rem;
+    margin: auto;
+}
+
+@media only screen and (max-width: 991px) {
+    .container-thin {
+        width: 90%;
+    }
+}
+
 .component-navigation {
     background-color: #ffffff;
 }
@@ -199,10 +220,7 @@ footer a:hover {
 }
 
 #cele-fundacji .intro {
-    display: block;
-    width: 50rem;
     font-size: 1.5rem;
-    margin: auto;
     font-weight: 400;
     line-height: 2rem;
     z-index: 200;
@@ -215,8 +233,36 @@ footer a:hover {
     }
 }
 
-@media only screen and (max-width: 991px) {
-    #cele-fundacji .intro {
-        width: 90%;
-    }
+#kontakt {
+    background-image: url('../images/social/tlo_grafa.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    color: #7256A5;
+}
+
+#kontakt h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+}
+
+#kontakt h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+#kontakt .bigger {
+    font-size: 1.25rem;
+}
+
+#kontakt .text-white a {
+    color: #ffffff;
+}
+
+#kontakt .text-white a:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
 }
