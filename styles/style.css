@@ -239,6 +239,8 @@ footer a:hover {
     background-size: contain;
     background-position: center top;
     color: #7256A5;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 #kontakt h2 {
@@ -265,4 +267,30 @@ footer a:hover {
 #kontakt .text-white a:hover {
     color: #ffffff;
     border-bottom-color: #ffffff;
+}
+
+#ekonomia-spoleczna {
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#ekonomia-spoleczna {
+    background-image: url('../images/dzialalnosc/tlo_cale.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+#ekonomia-spoleczna h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+}
+
+#ekonomia-spoleczna h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -2px;
 }
