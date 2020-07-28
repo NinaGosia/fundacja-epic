@@ -36,7 +36,7 @@
 
 <body>
 <div id="app">
-    <div class="container-fluid component-navigation sticky-top" :class="{ shrink: isShrinked }">
+    <div class="container-fluid component-navigation sticky-top">
         <div class="row">
             <div class="offset-xl-1 col-12 col-xl-10">
                 <nav class="navbar sticky-top navbar-expand-lg navbar-light">
@@ -126,7 +126,7 @@
         </div>
     </section>
 
-    <section id="ekonomia-spoleczna" class="bg-white py-3">
+    <section id="ekonomia-spoleczna" class="py-3">
         <div class="container">
             <div class="container-thin text-center px-5 py-3">
                 <h2>Ekonomia Społeczna</h2>
@@ -142,6 +142,70 @@
                     • wydarzenia okolicznościowe<br />
                     • wydarzenia dla firm oraz innych podmiotów z sektora publicznego<br />
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projekty" class="py-5">
+        <div class="container text-center">
+            <h2>Nasze projekty</h2>
+            <div>
+                <div class="row py-3">
+                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                        <a href="https://www.facebook.com/groups/793707514448264/" target="_blank" title="Kalendarz"><img src="./images/projekty/1kalendarz.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">W ramach promocji naszego pięknego miasta Gdańsk oraz promocji młodych twórców ze środowiska kostiumowego realizujemy Projekt Kalendarz z Wyobraźnią. Pod koniec każdego roku będziemy prezentowali kalendarz z pięknymi zdjęciami Gdańska jak i młodych twórców.</p>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                        <a href="https://www.facebook.com/groups/465900274318633/" target="_blank" title="Kuźnia"><img src="./images/projekty/2kuznia.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">W ramach szerzenia idei aktywnego wypoczynku młodzieży oraz dorosłych proponujemy warsztaty z improwizacji, nauki gry teatralnej, naukę odgrywania w otwartym teatrze improwizowanym oraz w przeistaczanie się w aktorów na zawołanie.</p>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                        <a href="https://www.facebook.com/groups/473291780014407/" target="_blank" title="Szkoła mistycznych kreacji"><img src="./images/projekty/3szkola_mistycznych_kreacji.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Dla osób, rozwiniętych manualnie, zainteresowanych środowiskiem kostiumowym proponujemy zajęcia z nauki tworzenia strojów przy użyciu różnych form plastycznych oraz materiałów. Dodatkowo oprócz samego tworzenia strojów różnymi technikami proponujemy zajęcia z charakteryzacji i wiele więcej.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <a class="my-3 d-block" data-toggle="collapse" href="#collapseProjekty" role="button" aria-expanded="false" aria-controls="collapseProjekty" v-on:click="projektyIsCollapsed = !projektyIsCollapsed">
+                <i v-if="!projektyIsCollapsed" class="arrow down"></i>
+                <i v-if="projektyIsCollapsed" class="arrow up"></i>
+            </a>
+
+            <div class="collapse" id="collapseProjekty">
+                <div class="row py-3">
+                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                        <a href="https://www.facebook.com/groups/179602556688120/" target="_blank" title="Freeformy"><img src="./images/projekty/4freeformy.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Improwizowane formy teatralne, gdzie wystąpić może każdy. Świetna propozycja na aktywne spędzenie wieczoru oraz rozwijania swoich umiejętności. Możesz być członkiem widowni - aktywnie oceniać i przeobrażać historię, albo aktorem-amatorem na scenie. Co miesiąc organizowane są Freeformy, które dotykają aspektów społeczno-kulturowych.</p>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                        <a href="https://www.facebook.com/events/491097131836009/" target="_blank" title="Czyja kwestia?"><img src="./images/projekty/5czyja_kwestia.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Powyższy projekt, to propozycja dla dorosłych, którzy chcą w wolną sobotę spędzić czas bardziej aktywnie. Zamiast iść do teatru, na stand-up oglądać komiksów czy też aktorów - sami mogą wcielić się w ich rolę na scenie, poprzez odgrywanie zabawnych scen improwizowanych, a także tworzyć małe scenki improwizowane wraz z widownią.</p>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                        <a href="https://www.facebook.com/EPICfundacja/" target="_blank" title="Inne"><img src="./images/projekty/6inne.jpg" /></a>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Pracujemy dzielnie nad innymi projektami, które ogłoszone zostaną niebawem. Będą one skierowane do fanów szeroko rozumianej popkultury niszowej. Jeśli chcesz być na bieżąco z naszymi projektami, zapraszamy na fanpage Fundacji EPIC.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

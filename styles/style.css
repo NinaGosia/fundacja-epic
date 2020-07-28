@@ -294,3 +294,52 @@ footer a:hover {
     font-weight: 400;
     letter-spacing: -2px;
 }
+
+#projekty {
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+@media only screen and (max-width: 991px) {
+    #projekty .col-12 {
+        margin-bottom: 1rem;
+    }
+}
+
+#projekty h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+}
+
+#projekty img {
+    width: 100%;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+#projekty p {
+    height: 100%;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    display: block;
+    margin: auto;
+}
+
+.arrow.up {
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 3rem solid #ffffff;
+}
+
+.arrow.down {
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-top: 3rem solid #ffffff;
+}
