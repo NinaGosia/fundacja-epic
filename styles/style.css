@@ -234,12 +234,17 @@ footer a:hover {
 }
 
 #kontakt {
+    padding-top: 126px;
+    margin-top: -126px;
+}
+
+#kontakt > div {
     background-image: url('../images/social/tlo_grafa.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center top;
     color: #7256A5;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 2rem;
 }
 
@@ -256,8 +261,8 @@ footer a:hover {
     letter-spacing: -2px;
 }
 
-#kontakt .bigger {
-    font-size: 1.25rem;
+#kontakt .smaller {
+    font-size: 1rem;
 }
 
 #kontakt .text-white a {
@@ -270,12 +275,14 @@ footer a:hover {
 }
 
 #ekonomia-spoleczna {
+    padding-top: 126px;
+    margin-top: -126px;
+}
+
+#ekonomia-spoleczna > div {
     color: #ffffff;
     font-size: 1.5rem;
     line-height: 2rem;
-}
-
-#ekonomia-spoleczna {
     background-image: url('../images/dzialalnosc/tlo_cale.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,6 +303,12 @@ footer a:hover {
 }
 
 #projekty {
+    padding-top: 126px;
+    margin-top: -126px;
+    padding-bottom: 75px;
+}
+
+#projekty > div {
     color: #ffffff;
     font-size: 1.5rem;
     line-height: 1.8rem;
@@ -342,4 +355,37 @@ footer a:hover {
     border-left: 3rem solid transparent;
     border-right: 3rem solid transparent;
     border-top: 3rem solid #ffffff;
+}
+
+#archiwum {
+    color: #ffffff;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+#archiwum h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+}
+
+#archiwum a {
+    color: #ffffff;
+    border-bottom: 1px solid #7256A5;
+    line-height: 2rem;
+}
+
+#archiwum a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom-color: #ffffff;
+}
+
+#cookies {
+    display: none;
+}
+
+#wesprzyj-nas {
+    padding-top: calc(126px + 1rem);
+    margin-top: calc(-126px + 1rem);
 }

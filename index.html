@@ -126,137 +126,163 @@
         </div>
     </section>
 
-    <section id="ekonomia-spoleczna" class="py-3">
-        <div class="container">
-            <div class="container-thin text-center px-5 py-3">
-                <h2>Ekonomia Społeczna</h2>
-                <h3>Organizacja eventów oraz imprez okolicznościowych</h3>
-                <p class="py-3">W zakresie naszych usług jest kompleksowa realizacja wydarzeń dla firm oraz społeczności lokalnych. Zajmujemy się organizacją wydarzeń od stworzenia założeń projektowych poprzez egzekucje, kończąc na zamknięciu administracyjnym wydarzenia. Naszą mocną stroną jest zbudowana spójna, atrakcyjna, integralna fabuła dla klienta oraz jego gości.</p>
-                <h3>Kompleksowo realizujemy:</h3>
-                <p class="py-3">
-                    • wydarzenia plenerowe<br />
-                    • konferencje<br />
-                    • jubileusze<br />
-                    • product launch<br />
-                    • imprezy integracyjne<br />
-                    • wydarzenia okolicznościowe<br />
-                    • wydarzenia dla firm oraz innych podmiotów z sektora publicznego<br />
+    <section id="ekonomia-spoleczna" class="bg-white">
+        <div class="bg-primary py-3">
+            <div class="container">
+                <div class="container-thin text-center px-5 py-3">
+                    <h2>Ekonomia Społeczna</h2>
+                    <h3>Organizacja eventów oraz imprez okolicznościowych</h3>
+                    <p class="py-3">W zakresie naszych usług jest kompleksowa realizacja wydarzeń dla firm oraz społeczności lokalnych. Zajmujemy się organizacją wydarzeń od stworzenia założeń projektowych poprzez egzekucje, kończąc na zamknięciu administracyjnym wydarzenia. Naszą mocną stroną jest zbudowana spójna, atrakcyjna, integralna fabuła dla klienta oraz jego gości.</p>
+                    <h3>Kompleksowo realizujemy:</h3>
+                    <p class="py-3">
+                        • wydarzenia plenerowe<br />
+                        • konferencje<br />
+                        • jubileusze<br />
+                        • product launch<br />
+                        • imprezy integracyjne<br />
+                        • wydarzenia okolicznościowe<br />
+                        • wydarzenia dla firm oraz innych podmiotów z sektora publicznego<br />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projekty">
+        <div class="bg-primary py-5">
+            <div class="container text-center">
+                <h2>Nasze projekty</h2>
+                <div>
+                    <div class="row py-3">
+                        <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                            <a href="https://www.facebook.com/groups/793707514448264/" target="_blank" title="Kalendarz"><img src="./images/projekty/1kalendarz.jpg" /></a>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-6">
+                            <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">W ramach promocji naszego pięknego miasta Gdańsk oraz promocji młodych twórców ze środowiska kostiumowego realizujemy Projekt Kalendarz z Wyobraźnią. Pod koniec każdego roku będziemy prezentowali kalendarz z pięknymi zdjęciami Gdańska jak i młodych twórców.</p>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                            <a href="https://www.facebook.com/groups/465900274318633/" target="_blank" title="Kuźnia"><img src="./images/projekty/2kuznia.jpg" /></a>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-6">
+                            <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">W ramach szerzenia idei aktywnego wypoczynku młodzieży oraz dorosłych proponujemy warsztaty z improwizacji, nauki gry teatralnej, naukę odgrywania w otwartym teatrze improwizowanym oraz w przeistaczanie się w aktorów na zawołanie.</p>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                            <a href="https://www.facebook.com/groups/473291780014407/" target="_blank" title="Szkoła mistycznych kreacji"><img src="./images/projekty/3szkola_mistycznych_kreacji.jpg" /></a>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-6">
+                            <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Dla osób, rozwiniętych manualnie, zainteresowanych środowiskiem kostiumowym proponujemy zajęcia z nauki tworzenia strojów przy użyciu różnych form plastycznych oraz materiałów. Dodatkowo oprócz samego tworzenia strojów różnymi technikami proponujemy zajęcia z charakteryzacji i wiele więcej.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a v-if="!projektyIsCollapsed" class="my-3 d-block" data-toggle="collapse" href="#collapseProjekty" role="button" aria-expanded="false" aria-controls="collapseProjekty" v-on:click="projektyIsCollapsed = !projektyIsCollapsed">
+                    <i class="arrow down"></i>
+                </a>
+
+                <div class="collapse" id="collapseProjekty">
+                    <div class="row py-3">
+                        <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                            <a href="https://www.facebook.com/groups/179602556688120/" target="_blank" title="Freeformy"><img src="./images/projekty/4freeformy.jpg" /></a>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-6">
+                            <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Improwizowane formy teatralne, gdzie wystąpić może każdy. Świetna propozycja na aktywne spędzenie wieczoru oraz rozwijania swoich umiejętności. Możesz być członkiem widowni - aktywnie oceniać i przeobrażać historię, albo aktorem-amatorem na scenie. Co miesiąc organizowane są Freeformy, które dotykają aspektów społeczno-kulturowych.</p>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                            <a href="https://www.facebook.com/events/491097131836009/" target="_blank" title="Czyja kwestia?"><img src="./images/projekty/5czyja_kwestia.jpg" /></a>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-6">
+                            <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Powyższy projekt, to propozycja dla dorosłych, którzy chcą w wolną sobotę spędzić czas bardziej aktywnie. Zamiast iść do teatru, na stand-up oglądać komiksów czy też aktorów - sami mogą wcielić się w ich rolę na scenie, poprzez odgrywanie zabawnych scen improwizowanych, a także tworzyć małe scenki improwizowane wraz z widownią.</p>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
+                            <a href="https://www.facebook.com/EPICfundacja/" target="_blank" title="Inne"><img src="./images/projekty/6inne.jpg" /></a>
+                        </div>
+                        <div class="col-12 col-lg-7 col-xl-6">
+                            <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Pracujemy dzielnie nad innymi projektami, które ogłoszone zostaną niebawem. Będą one skierowane do fanów szeroko rozumianej popkultury niszowej. Jeśli chcesz być na bieżąco z naszymi projektami, zapraszamy na fanpage Fundacji EPIC.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a v-if="projektyIsCollapsed" class="my-3 d-block" data-toggle="collapse" href="#collapseProjekty" role="button" aria-expanded="false" aria-controls="collapseProjekty" v-on:click="projektyIsCollapsed = !projektyIsCollapsed">
+                    <i class="arrow up"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <div class="bg-white py-5">
+            <div class="container-thin px-5 py-3 text-center">
+                <h3>Skontaktuj się z nami</h3>
+                <p>
+                    Fundacja EPIC<br />
+                    e-mail: <a href="mailto:kontakt@fundacjaepic.pl">kontakt@fundacjaepic.pl</a><br />
+                    Telefon: 504 028 892
+                </p>
+                <p class="smaller">
+                    ul. (brak)<br />
+                    (brak), Gdańsk<br />
+                    NIP: (brak)<br />
+                    REGON: (brak)<br />
                 </p>
             </div>
-        </div>
-    </section>
-
-    <section id="projekty" class="py-5">
-        <div class="container text-center">
-            <h2>Nasze projekty</h2>
-            <div>
-                <div class="row py-3">
-                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
-                        <a href="https://www.facebook.com/groups/793707514448264/" target="_blank" title="Kalendarz"><img src="./images/projekty/1kalendarz.jpg" /></a>
-                    </div>
-                    <div class="col-12 col-lg-7 col-xl-6">
-                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">W ramach promocji naszego pięknego miasta Gdańsk oraz promocji młodych twórców ze środowiska kostiumowego realizujemy Projekt Kalendarz z Wyobraźnią. Pod koniec każdego roku będziemy prezentowali kalendarz z pięknymi zdjęciami Gdańska jak i młodych twórców.</p>
-                    </div>
-                </div>
-                <div class="row py-3">
-                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
-                        <a href="https://www.facebook.com/groups/465900274318633/" target="_blank" title="Kuźnia"><img src="./images/projekty/2kuznia.jpg" /></a>
-                    </div>
-                    <div class="col-12 col-lg-7 col-xl-6">
-                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">W ramach szerzenia idei aktywnego wypoczynku młodzieży oraz dorosłych proponujemy warsztaty z improwizacji, nauki gry teatralnej, naukę odgrywania w otwartym teatrze improwizowanym oraz w przeistaczanie się w aktorów na zawołanie.</p>
-                    </div>
-                </div>
-                <div class="row py-3">
-                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
-                        <a href="https://www.facebook.com/groups/473291780014407/" target="_blank" title="Szkoła mistycznych kreacji"><img src="./images/projekty/3szkola_mistycznych_kreacji.jpg" /></a>
-                    </div>
-                    <div class="col-12 col-lg-7 col-xl-6">
-                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Dla osób, rozwiniętych manualnie, zainteresowanych środowiskiem kostiumowym proponujemy zajęcia z nauki tworzenia strojów przy użyciu różnych form plastycznych oraz materiałów. Dodatkowo oprócz samego tworzenia strojów różnymi technikami proponujemy zajęcia z charakteryzacji i wiele więcej.</p>
-                    </div>
-                </div>
+            <div id="wesprzyj-nas" class="container-thin px-5 pb-3 text-center">
+                <p>Jako Fundacja EPIC prowadzimy działalność kulturalną, promującą kulturę szeroko rozumianego wschodu, aktywizację młodzieży i dorosłych w działaniach społecznych oraz wspieramy młodych twórców. Jeśli cenisz to co robimy i chcesz, abyśmy poszerzali nasze działania</p>
+                <h3>WESPRZYJ NAS!</h3>
+                <p>Możesz nas wesprzeć przekazując darowiznę, w postaci dowolnej kwoty na konto:</p>
+                <p>
+                    <h3>(numer banku brak)</h3>
+                    (nazwa banku brak)<br />
+                    Fundacja EPIC<br />
+                    ul. (brak)<br />
+                    (kod pocztowy brak), Gdańsk<br />
+                    W tytule wpisując: „Darowizna na cele statutowe”<br />
+                </p>
+                <p>Jeżeli chcesz nas wesprzeć jako firma bądź w inny sposób (przekazanie środków trwałych, poprzez wolontariat, sponsoring itd.) albo dowiedzieć się na co przeznaczone są środki, które nam przekazałeś, proszę, skontaktuj się z nami poprzez wysłanie emaila na: <a href="mailto:kontakt@fundacjaepic.pl" target="_blank" title="Napisz do nas!">kontakt@fundacjaepic.pl</a></p>
             </div>
-            
-            <a class="my-3 d-block" data-toggle="collapse" href="#collapseProjekty" role="button" aria-expanded="false" aria-controls="collapseProjekty" v-on:click="projektyIsCollapsed = !projektyIsCollapsed">
-                <i v-if="!projektyIsCollapsed" class="arrow down"></i>
-                <i v-if="projektyIsCollapsed" class="arrow up"></i>
-            </a>
-
-            <div class="collapse" id="collapseProjekty">
-                <div class="row py-3">
-                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
-                        <a href="https://www.facebook.com/groups/179602556688120/" target="_blank" title="Freeformy"><img src="./images/projekty/4freeformy.jpg" /></a>
-                    </div>
-                    <div class="col-12 col-lg-7 col-xl-6">
-                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Improwizowane formy teatralne, gdzie wystąpić może każdy. Świetna propozycja na aktywne spędzenie wieczoru oraz rozwijania swoich umiejętności. Możesz być członkiem widowni - aktywnie oceniać i przeobrażać historię, albo aktorem-amatorem na scenie. Co miesiąc organizowane są Freeformy, które dotykają aspektów społeczno-kulturowych.</p>
-                    </div>
-                </div>
-                <div class="row py-3">
-                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
-                        <a href="https://www.facebook.com/events/491097131836009/" target="_blank" title="Czyja kwestia?"><img src="./images/projekty/5czyja_kwestia.jpg" /></a>
-                    </div>
-                    <div class="col-12 col-lg-7 col-xl-6">
-                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Powyższy projekt, to propozycja dla dorosłych, którzy chcą w wolną sobotę spędzić czas bardziej aktywnie. Zamiast iść do teatru, na stand-up oglądać komiksów czy też aktorów - sami mogą wcielić się w ich rolę na scenie, poprzez odgrywanie zabawnych scen improwizowanych, a także tworzyć małe scenki improwizowane wraz z widownią.</p>
-                    </div>
-                </div>
-                <div class="row py-3">
-                    <div class="offset-xl-1 col-12 col-lg-5 col-xl-4">
-                        <a href="https://www.facebook.com/EPICfundacja/" target="_blank" title="Inne"><img src="./images/projekty/6inne.jpg" /></a>
-                    </div>
-                    <div class="col-12 col-lg-7 col-xl-6">
-                        <p class="text-center d-flex flex-column justify-content-center align-items-center px-3">Pracujemy dzielnie nad innymi projektami, które ogłoszone zostaną niebawem. Będą one skierowane do fanów szeroko rozumianej popkultury niszowej. Jeśli chcesz być na bieżąco z naszymi projektami, zapraszamy na fanpage Fundacji EPIC.</p>
-                    </div>
-                </div>
+            <div class="container text-center">
+                <h2>Obserwuj nas na:</h2>
+                <a href="https://www.instagram.com/fundacjaepic/" title="Instagram" target="_blank" class="d-inline-block m-3">
+                    <img src="images/social/instagram.svg" height="50" />
+                </a>
+                <a href="https://www.facebook.com/EPICfundacja/" title="Facebook" target="_blank" class="d-inline-block m-3">
+                    <img src="images/social/facebook.svg" height="50" />
+                </a>
             </div>
         </div>
     </section>
 
-    <section id="kontakt" class="bg-white py-5">
-        <div class="container text-center">
-            <h2>Obserwuj nas na:</h2>
-            <a href="https://www.instagram.com/fundacjaepic/" title="Instagram" target="_blank" class="d-inline-block m-3">
-                <img src="images/social/instagram.svg" height="50" />
-            </a>
-            <a href="https://www.facebook.com/EPICfundacja/" title="Facebook" target="_blank" class="d-inline-block m-3">
-                <img src="images/social/facebook.svg" height="50" />
-            </a>
-        </div>
-        <div class="container-thin bg-primary px-5 py-3 text-center">
-            <h3 class="text-white">Skontaktuj się z nami</h3>
-            <p class="text-white bigger">
-                Fundacja EPIC<br />
-                e-mail: <a href="mailto:kontakt@fundacjaepic.pl">kontakt@fundacjaepic.pl</a><br />
-                Telefon: 504 028 892
-            </p>
-            <p class="text-white">
-                ul. (brak)<br />
-                (brak), Gdańsk<br />
-                NIP: (brak)<br />
-                REGON: (brak)<br />
-            </p>
-        </div>
-        <div id="wesprzyj-nas" class="container-thin px-5 py-3 text-center">
-            <p>Jako Fundacja EPIC prowadzimy działalność kulturalną, promującą kulturę szeroko rozumianego wschodu, aktywizację młodzieży i dorosłych w działaniach społecznych oraz wspieramy młodych twórców. Jeśli cenisz to co robimy i chcesz, abyśmy poszerzali nasze działania</p>
-            <h3>WESPRZYJ NAS!</h3>
-            <p>Możesz nas wesprzeć przekazując darowiznę, w postaci dowolnej kwoty na konto:</p>
-            <p>
-                <h3>(numer banku brak)</h3>
-                (nazwa banku brak)<br />
-                Fundacja EPIC<br />
-                ul. (brak)<br />
-                (kod pocztowy brak), Gdańsk<br />
-                W tytule wpisując: „Darowizna na cele statutowe”<br />
-            </p>
-            <p>Jeżeli chcesz nas wesprzeć jako firma bądź w inny sposób (przekazanie środków trwałych, poprzez wolontariat, sponsoring itd.) albo dowiedzieć się na co przeznaczone są środki, które nam przekazałeś, proszę, skontaktuj się z nami poprzez wysłanie emaila na: <a href="mailto:kontakt@fundacjaepic.pl" target="_blank" title="Napisz do nas!">kontakt@fundacjaepic.pl</a></p>
+    <section id="archiwum" class="py-3">
+        <div class="container">
+            <div class="container-thin text-center px-5 py-3">
+                <h2>Dokumenty</h2>
+                <p class="py-3">
+                    W celu zadbania o transparentność działalności fundacji udostępnione sprawozdania można znaleźć pod tym <a href="https://drive.google.com/drive/folders/13Z5nBX7HC0vgPlVYYvqTdSyJuj6DS598?usp=sharing" target="_blank">LINKIEM</a>.
+            </div>
         </div>
     </section>
 
-    <footer class="container-fluid text-center d-flex flex-column justify-content-center align-items-center mt-5">
+    <footer class="container-fluid text-center d-flex flex-column justify-content-center align-items-center mt-0">
         <h5 class="d-flex flex-column">
             <span class="text-uppercase">Zostań naszym darczyńcą</span>
             <span><a href="mailto:kontakt@fundacjaepic.pl">kontakt@fundacjaepic.pl</a></span>
         </h5>
         <span class="mt-3">&copy;2020 Fundacja Epic. All rights reserved.</span>
     </footer>
+
+    <div v-if="!cookiesConsentIsAccepted" id="cookies" class="fixed-bottom text-light bg-dark p-3" v-bind:class="{ 'd-block': !cookiesConsentIsAccepted }">
+        <p>Witaj, droga odwiedzająca osobo! Aby usprawnić korzystanie z naszej strony www, użyliśmy rozwiązań korzystających z plików Cookies. Jeśli będziesz czytał o nas i korzystał z tej strony, będziesz musiał wyrazić zgodę, na akceptację ich użycia, zgodnie z aktualnymi ustawieniami używanej przez Ciebie przeglądarki. Jeśli chciałbyś się dowiedzieć więcej na ten temat - zapraszamy do karty o Polityce Prywatności oraz Polityce Cookies. Jeśli nie wyrażasz zgody, ustawienia dotyczące plików cookies możesz zmienić w swojej przeglądarce.</p>
+        <a v-on:click="acceptCookie()" class="btn btn-success btn-sm" data-dismiss="modal">Rozumiem i Akceptuję</a>
+        <a href="./polityka-prywatnosci-i-plikow-cookies.html" target="_blank" class="btn btn-secondary btn-sm">Przenieś mnie do polityki prywatności i plików cookies</a>
+    </div>
+
 </div>
 
 <!-- Optional JavaScript -->
